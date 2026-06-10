@@ -1,0 +1,54 @@
+code,name,category,legacy_code
+A,Residential,Residential,
+B,Business,Business,
+C,Sydney Commercial / Business,Business,
+D,10(a) Sustainable Mixed Use Development,,
+E,Employment,Business,
+I,Industrial,Industrial,
+M,9(a)(Mixed Residential / Business),,
+N,National Parks,Environment Protection,
+O,Open Space,Recreation,
+P,Protection,Environment Protection,
+R,Non-Urban,Rural,
+S,Special Uses,Special Purpose,
+T,North Sydney Commercial / Business,Business,
+U,Community Uses,Recreation,
+V,Comprehensive Centre,,
+W,Reserve Open Space,,
+X,Reserved Roads,,
+Y,Reserved Special Uses,,
+Z,Undetermined or Village,,
+RU1,Primary Production,Rural,R
+RU2,Rural Landscape,Rural,R
+RU3,Forestry,Rural,R
+RU4,Rural Small Holdings,Rural,R
+RU5,Village,Rural,A
+RU6,Transition,Rural,R
+R1,General Residential,Residential,A
+R2,Low Density Residential,Residential,A
+R3,Medium Density Residential,Residential,A
+R4,High Density Residential,Residential,A
+R5,Large Lot Residential,Residential,A
+B1,Neighbourhood Centre,Business,B
+B2,Local Centre,Business,B
+B3,Commercial Core,Business,B
+B4,Mixed Use,Business,B
+B5,Business Development,Business,B
+B6,Enterprise Corridor,Business,B
+B7,Business Park,Business,B
+IN1,General Industrial,Industrial,I
+IN2,Light Industrial,Industrial,I
+IN3,Heavy Industrial,Industrial,I
+IN4,Working Waterfront,Industrial,I
+SP1,Special Activities,Special Purpose,S
+SP2,Infrastructure,Special Purpose,S
+SP3,Tourist,Special Purpose,S
+RE1,Public Recreation,Recreation,O
+RE2,Private Recreation,Recreation,O
+E1,National Parks and Nature Reserves,Environment Protection,R
+E2,Environmental Conservation,Environment Protection,R
+E3,Environmental Management,Environment Protection,R
+E4,Environmental Living,Environment Protection,R
+W1,Natural Waterways,Waterway,R
+W2,Recreational Waterways,Waterway,O
+W3,Working Waterways,Waterway,I

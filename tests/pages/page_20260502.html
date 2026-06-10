@@ -1,0 +1,151 @@
+<!-- removed feedback widget--><!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Valuer General NSW Valuation Portal</title><link rel="stylesheet" href="/static/css/style.css"><link rel="stylesheet" href="/static/css/font-awesome.css"><link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script><script src="/static/js/notifications-update.js"></script><link rel="shortcut icon" href="/static/images/waratah_40.png"><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-80356312-1', 'auto');
+if (document.location.pathname.match(/^\/reset\/[0-9a-z]+/)) {
+	ga('set', 'page', '/reset');
+}
+ga('send', 'pageview');</script></head><body><div role="navigation" class="navbar navbar-default navbar-static-top"><div class="container"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/" class="navbar-brand"><img src="/static/images/VAL_GEN_NSW_2020_px.png" alt="Valuer General NSW Portal" class="valuationLogo"></a></div><div class="collapse navbar-collapse"><ul class="nav navbar-nav navbar-right"><li><a href="/login">Login</a></li><li><a href="/register">Register</a></li></ul></div></div><div class="valuation banner"></div></div><div class="container"><style>
+ .panel-heading:hover {
+  cursor: pointer;
+  color: #00a1de;
+ }
+ .panel-heading.collapsed .glyphicon-chevron-down {
+  transform:rotateX(0deg);
+ }
+ .panel-heading .glyphicon-chevron-down {
+  transition:transform .5s;
+  transform:rotateX(180deg);
+ }
+ .btn-sales-data {
+  width: 108px;
+  margin: 5px;
+ }
+</style>
+
+<div class="container">
+
+<h1>
+ Bulk property sales information</h1>
+<div class="page-header">
+<p>You can access free bulk NSW Property Sales Information (PSI) from 1990 onwards.</p>
+
+<p>Current (2001 to current date) PSI files are generated on a weekly basis for each Local Government Area. These files contain sales data created in the week prior to file creation. Historic (1990 to 2001) PSI files are generated on a yearly basis and contain annual sales data registered during the specified year.</p>
+
+<p>PSI data files are delivered in .DAT file format. &nbsp;They can be imported into most spreadsheet and database programs.</p>
+
+<p>Bulk PSI is available under open access licensing as part of the NSW Government Open Data Policy and is subject to the Creative Commons BY-NC-ND 4.0 Licence.</p>
+
+<p>We do not guarantee the completeness or accuracy of the data as bulk PSI is obtained from a variety of sources.</p>
+
+<p>As an alternate to accessing PSI, the NSW Land Values and Property Sales Map also contains a PSI layer where property sales can be viewed at an individual property level going back to 2001, and at a street and suburb level going back five years from day of inquiry. &nbsp;Information on how to access PSI on NSW Land Values and Property Sales Map is available on the <a href="https://www.valuergeneral.nsw.gov.au" target="_blank">NSW Valuer General’s website</a>.</p>
+
+<p>The Valuation NSW manages the valuation system. The information on this page was prepared by Valuation NSW.</p>
+</div>
+
+<div class="panel-group" id="accordion">
+<div class="panel panel-default">
+<div class="panel-heading" data-toggle="collapse" data-target="#collapseWeekly">
+<h3 class="panel-title accordion-toggle"><i class="fa fa-calendar"></i>&ensp;Weekly sales data<span class="glyphicon glyphicon-chevron-down pull-right"></span></h3>
+</div>
+<div id="collapseWeekly" class="panel-collapse collapse in">
+<div class="panel-body weekly">
+<a class="btn btn-primary btn-sales-data btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260105.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260105.zip">05 Jan 2026</a>
+<a class="btn btn-primary btn-sales-data btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260112.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260112.zip">12 Jan 2026</a>
+<a class="btn btn-primary btn-sales-data btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260119.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260119.zip">19 Jan 2026</a>
+<a class="btn btn-primary btn-sales-data btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260126.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260126.zip">26 Jan 2026</a>
+<a class="btn btn-primary btn-sales-data btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260202.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260202.zip">02 Feb 2026</a>
+<a class="btn btn-primary btn-sales-data btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260209.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260209.zip">09 Feb 2026</a>
+<a class="btn btn-primary btn-sales-data btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260216.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260216.zip">16 Feb 2026</a>
+<a class="btn btn-primary btn-sales-data btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260223.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260223.zip">23 Feb 2026</a>
+<a class="btn btn-primary btn-sales-data btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260302.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260302.zip">02 Mar 2026</a>
+<a class="btn btn-primary btn-sales-data btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260309.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260309.zip">09 Mar 2026</a>
+<a class="btn btn-primary btn-sales-data btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260316.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260316.zip">16 Mar 2026</a>
+<a class="btn btn-primary btn-sales-data btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260323.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260323.zip">23 Mar 2026</a>
+<a class="btn btn-primary btn-sales-data btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260330.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260330.zip">30 Mar 2026</a>
+<a class="btn btn-primary btn-sales-data btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260406.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260406.zip">06 Apr 2026</a>
+<a class="btn btn-primary btn-sales-data btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260413.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260413.zip">13 Apr 2026</a>
+<a class="btn btn-primary btn-sales-data btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260420.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260420.zip">20 Apr 2026</a>
+<a class="btn btn-primary btn-sales-data btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260427.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/weekly/20260427.zip">27 Apr 2026</a>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading collapsed" data-toggle="collapse" data-target="#collapseAnnual">
+<h3 class="panel-title accordion-toggle"><i class="fa fa-line-chart"></i>&ensp;Annual sales data<span class="glyphicon glyphicon-chevron-down pull-right"></span></h3>
+</div>
+<div id="collapseAnnual" class="panel-collapse collapse">
+<div class="panel-body annual">
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/1990.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/1990.zip">1990</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/1991.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/1991.zip">1991</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/1992.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/1992.zip">1992</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/1993.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/1993.zip">1993</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/1994.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/1994.zip">1994</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/1995.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/1995.zip">1995</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/1996.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/1996.zip">1996</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/1997.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/1997.zip">1997</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/1998.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/1998.zip">1998</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/1999.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/1999.zip">1999</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/2000.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/2000.zip">2000</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/2001.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/2001.zip">2001</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/2002.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/2002.zip">2002</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/2003.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/2003.zip">2003</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/2004.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/2004.zip">2004</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/2005.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/2005.zip">2005</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/2006.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/2006.zip">2006</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/2007.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/2007.zip">2007</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/2008.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/2008.zip">2008</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/2009.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/2009.zip">2009</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/2010.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/2010.zip">2010</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/2011.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/2011.zip">2011</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/2012.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/2012.zip">2012</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/2013.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/2013.zip">2013</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/2014.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/2014.zip">2014</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/2015.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/2015.zip">2015</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/2016.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/2016.zip">2016</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/2017.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/2017.zip">2017</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/2018.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/2018.zip">2018</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/2019.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/2019.zip">2019</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/2020.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/2020.zip">2020</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/2021.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/2021.zip">2021</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/2022.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/2022.zip">2022</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/2023.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/2023.zip">2023</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/2024.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/2024.zip">2024</a>
+<a class="btn btn-primary btn-sales-data" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PSI Data File', 'https://www.valuergeneral.nsw.gov.au/__psi/weekly/2025.zip']);" href="https://www.valuergeneral.nsw.gov.au/__psi/yearly/2025.zip">2025</a>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading collapsed" data-toggle="collapse" data-target="#collapseDocumentation">
+<h3 class="panel-title"><i class="fa fa-file-text-o"></i>&ensp;Documentation<span class="glyphicon glyphicon-chevron-down pull-right"></span></h3>
+</div>
+<div id="collapseDocumentation" class="panel-collapse collapse">
+<div class="panel-body">
+<style>
+.fileSize {
+    color: #888;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase
+}
+</style>
+<h4>General information</h4>
+<a href="https://www.valuergeneral.nsw.gov.au/__data/assets/pdf_file/0017/216404/Property_Sales_Data_File_-_Instructions_V2.pdf" target="_blank">Instructions</a> <span class="fileSize">(PDF 63.4 KB)</span><br /><br />
+<h4>Technical documentation</h4>
+<a href="https://www.valuergeneral.nsw.gov.au/__data/assets/pdf_file/0014/216401/Archived_Property_Sales_Data_File_Format_1990_to_2001_V2.pdf" target="_blank">Archived Property Sales Data File Format (1990 to 2001)</a> <span class="fileSize">(PDF 72.1 KB)</span><br />
+<a href="https://www.valuergeneral.nsw.gov.au/__data/assets/pdf_file/0015/216402/Current_Property_Sales_Data_File_Format_2001_to_Current.pdf" target="_blank">Current Property Sales Data File Format (2001 to Current)</a> <span class="fileSize">(PDF 75.4 KB)</span><br />
+<a href="https://www.valuergeneral.nsw.gov.au/__data/assets/pdf_file/0016/216403/Property_Sales_Data_File_-_Data_Elements_V3.pdf" target="_blank">Data Elements</a> <span class="fileSize">(PDF 66.2 KB)</span><br />
+<a href="https://www.valuergeneral.nsw.gov.au/__data/assets/pdf_file/0018/216405/Property_Sales_Data_File_District_Codes_and_Names.pdf" target="_blank">Property Sales Data File (District Codes and Names)</a> <span class="fileSize">(PDF 75.2 KB)</span><br />
+<a href="https://www.valuergeneral.nsw.gov.au/__data/assets/pdf_file/0019/216406/Property_Sales_Data_File_Zone_Codes_and_Descriptions_V2.pdf" target="_blank">Property Sales Data File (Zone Codes and Descriptions)</a> <span class="fileSize">(PDF 61.3 KB)</span><br />
+<a href="https://www.valuergeneral.nsw.gov.au/__data/assets/pdf_file/0004/226885/Property_Sales_Information_Data_Files_User_guide.pdf" target="_blank">Property Sales Information Data Files user guide </a> <span class="fileSize">(PDF 1.9 MB)</span><br />
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+</div><footer class="footer"><hr><div role="navigation" class="navbar"><div class="container"><ul class="nav navbar-nav navbar-left"><li><a href="http://www.valuergeneral.nsw.gov.au/about_us">About Us</a></li><li><a href="http://www.valuergeneral.nsw.gov.au/accessibility">Accessibility</a></li><li><a href="http://www.valuergeneral.nsw.gov.au/privacy">Privacy</a></li><li><a href="/content/terms">Terms and Conditions</a></li><li><a href="/content/help">Help</a></li><li><a href="http://www.valuergeneral.nsw.gov.au/copyright">Copyright</a></li><li><a href="http://www.valuergeneral.nsw.gov.au/disclaimer">Disclaimer</a></li></ul></div></div></footer></body></html>
