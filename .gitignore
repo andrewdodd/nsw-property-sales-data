@@ -1,3 +1,8 @@
+# Local sample database produced by sync_db (excluded from sdist builds too)
+*.db
+*.db-wal
+*.db-shm
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
